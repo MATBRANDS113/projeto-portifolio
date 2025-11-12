@@ -276,6 +276,21 @@ footer{
     grid-template-columns: 1fr 1fr;
   }
 
+  main{
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha{
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 69px;
+  }
+
+  section#detalhes{
+    grid-column: 3 / 4;
+  }
+
   #projeto-container .projeto{
     flex-direction: row-reverse;
     justify-content: space-between;
